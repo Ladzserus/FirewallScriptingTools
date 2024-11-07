@@ -1,0 +1,5 @@
+no,package,rule_name,source,destination,vpn,port,action,time,track,install-on,comments,position,section
+1,CSSA_EFW_Policy Network,Tenable to VIS Nessus scanners,cssamev1vul01,visappe1vul01;visappe2vul01,Any,ssh;https;TCP_8000;TCP_8090;tcp_8834,Accept,Any,Log,Policy Targets,C16593,bottom,Nessus CSSA CU <--> CSSA BCU
+1,BEOP_Policy Network,Tenable to VIS Nessus scanners,cssamev1vul01;cssamev2vul01,visappe1vul01,Any,ssh;https;TCP_8000;TCP_8090;tcp_8834,Accept,Any,Log,Policy Targets,C16593,bottom,Nessus scanners
+1,BEOP_Policy Network,EUWS workstations to VIS Nessus scanners,EUWS-subnets,visappe1vul01,Any,ssh;https;TCP_8000;TCP_8090;tcp_8834,Accept,Any,Log,Policy Targets,C16593,bottom,Nessus scanners
+1,EUWS_PPE_Policy Network,EUWS to Nessus scanners,EUWS-subnets,visappe1vul01,Any,ssh;TCP_8000;tcp_8834,Accept,Any,Log,Policy Targets,C16593,bottom,EUWS workstations to Nessus sensors
