@@ -1,0 +1,2 @@
+package,name,srcintf,dstintf,source,destination,port,action,logging
+pkgname,ruleName,int01,int02,source-object-group;dest-obj-group,second_destination,HTTP;TCP_8080,accept,all
