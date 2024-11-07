@@ -30,7 +30,7 @@ First, configure the CSV file with the users to be added.
 
 Then, call the script:
 ```Python
->>> python add_rules.py --FWMgmt "192.168.0.1,10.0.1.1" -File "add_users_model.csv" --ApiKey "firstAPIkeyhere==,secondAPIkeyhere=="
+>>> python add_rules.py --FWMgmt "192.168.0.1,10.0.1.1" --File "add_users_model.csv" --ApiKey "firstAPIkeyhere==,secondAPIkeyhere=="
 ```
 
 ## update_srcobjs.py
