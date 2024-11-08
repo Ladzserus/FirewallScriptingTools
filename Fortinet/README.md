@@ -22,3 +22,18 @@ Then, call the script:
 ```Python
 >>> add_rules.py --FWMgmt "fortmanagerFQDN" --APIKey "yourAPIkeyhere" --File "Path\to\csv\file.csv"
 ```
+
+### add_hosts.py
+
+First, configure the CSV file with the rules to be added.
+
+Then, call the script:
+```Python
+>>> add_hosts.py --FWMgmt "fortmanagerFQDN" --APIKey "yourAPIkeyhere" --File "Path\to\csv\file.csv"
+```
+
+## Changelog
+
+### Initial version
+
+Uploaded.
